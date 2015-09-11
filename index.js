@@ -107,10 +107,10 @@ module.exports = function(opt) {
         watch: false,
         // TODO add configurable tags
         tags: {
-          blockStart: '<%',
-          blockEnd: '%>',
-          commentStart: '<#',
-          commentEnd: '#>'
+          blockStart: '{%',
+          blockEnd: '%}',
+          commentStart: '{#',
+          commentEnd: '#}'
         }
       });
 
